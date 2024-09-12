@@ -1,0 +1,635 @@
+@media screen and (min-width:431px){body{padding: 3rem}}
+@media screen and (max-width:430px){body{padding: 0.2rem}}
+
+body
+{background-color: #000000;
+color: #e5e5e5;}
+
+button
+{cursor: pointer;}
+
+.top-div
+{display: flex;
+flex-direction: row;}
+
+@media screen and (max-width:430px){.top-div{display: flex; flex-direction: column;}}
+
+.logo
+{font-family:"Red Hat Display", sans-serif;
+font-weight: 600;
+font-optical-sizing: auto;
+font-style: normal;
+font-size:4vw;
+color: #006A6A;}
+
+.logo-dot
+{font-family:"Red Hat Display", sans-serif;
+font-weight: 600;
+font-optical-sizing: auto;
+font-style: normal;
+font-size:2vw;
+color: #006A6A;
+width: 80px;
+display: inline-block; 
+margin-inline-start: 0.4vw;
+margin-block-start: 1.8vw;}
+
+.logo-div
+{display: flex;
+flex-direction: row;
+width: 100px;
+margin-block-end: 5rem;
+}
+
+.hello
+{color: #FFB703;
+font-family:"Red Hat Display", sans-serif;
+font-weight: 900;
+font-optical-sizing: auto;
+font-style: normal;
+font-size: 2vw;
+width: 30vw;
+/*margin-inline-start: 8rem*/}
+
+.my-name-is
+{color: #006A6A;
+font-family:"Red Hat Display", sans-serif;
+font-weight: 900;
+font-optical-sizing: auto;
+font-style: normal;
+font-size: 2vw; 
+margin-block-end: 10px;}
+
+.meshack
+{color: #006A6A;
+font-family:"Red Hat Display", sans-serif;
+font-weight: 900;
+font-optical-sizing: auto;
+font-style: normal;
+font-size: 5rem;
+margin-block-end: 0.1rem;
+/*margin-inline-start: 8rem*/}
+
+.daniels
+{color: #FFB703;
+font-family:"Red Hat Display", sans-serif;
+font-weight: 900;
+font-optical-sizing: auto;
+font-style: normal;
+font-size: 5rem;}
+
+@media screen and (max-width: 430px) {.meshack, .daniels{font-size: 9vw;}}
+
+
+.i-am
+{font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 1rem;
+margin-block-end: 3rem;}
+
+
+.soft, .services, .web-design, .our-talent, .projects-we-have, .what-customers-say, .our-price-board, .price-itself
+{font-family: Lobster, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 1.5rem;}
+
+.based-in
+{font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 2vw;
+margin-block-end: 1rem;
+width: 45vw;
+z-index:3}
+
+.xpress-word
+{font-family:"Red Hat Display", sans-serif;
+color: #006A6A;
+font-weight: 900;
+font-size: 2.7vw;
+z-index:3;}
+
+@media screen and (min-width: 431px) {.i-am, .based-in{margin-inline-start: 8rem;}}
+@media screen and (max-width: 430px) {.based-in{width: 85vw; font-size: 4.5vw; margin-inline: 1vw;}}
+@media screen and (max-width: 430px) {.xpress-word{font-size: 5.5vw;}}
+
+.ig 
+{background-color: transparent;
+border: none;
+padding-inline-start: 0.5px;}
+
+.ig-logo
+{width: 2rem;}
+
+.ig-logo:hover
+{background-color:#FFB703;}
+
+
+/*.check-my::before
+{content: "";
+display: block;
+position: absolute;
+right: 1rem;
+top: -15px;
+border-bottom: 15px solid white;
+border-left: 15px solid transparent;
+border-right: 15px solid transparent;} will leave this here for reference when a project needs a div to have a little arrow on top- comment-like*/
+
+.phone-logo
+{width: 2.5rem;}
+
+.socials-div
+{display: flex;
+align-items: center;
+margin-inline-start: 8rem;
+margin-block-end: 2rem;
+position: absolute;}
+
+@media screen and (max-width: 430px) {.socials-div{margin-inline-start: 26%;}}
+
+.contact-us
+{margin-inline-start: 8rem;
+margin-block-end: 1rem;
+color: #e5e5e5;
+border-width: 1px, solid;
+border-style: solid;
+border-color: #e5e5e5;
+padding: 1rem 2rem;
+background: inherit;
+border-radius: 2rem;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 1rem;
+font-weight: 500;
+cursor: pointer;}
+
+@media screen and (max-width: 430px) {.contact-us{padding-inline: 4vw; margin-inline: 31%;}}
+
+.contact-us:hover
+{color:#000000;
+background-color: #e5e5e5;}
+
+
+.image-div
+{width: 25rem;
+background-color: #006A6A;
+border-radius: 12.5rem;
+height: 25rem;
+margin-block-start: 20px;
+position: absolute;
+z-index: 1;}
+
+@media screen and (max-width:430px){.image-div{width: 90vw; z-index:2;}}
+
+.project-image
+{width: 100%;}
+
+.meshack-image
+{width: 28rem;
+position: relative;
+z-index: 9;}
+
+
+@media screen and (max-width: 430px) {.left-div, .right-div{width: 100%;}}
+@media screen and (max-width: 430px) {.meshack-image{width: 26rem;}}
+
+
+.left-button-look-alike
+{margin-block-start: 19rem;
+position: absolute;
+z-index: 2;
+display: flex;
+background-color: #000000;
+padding: 1rem 2rem;
+width: 15rem;
+border-radius: 5rem;
+margin-inline-start: -1rem;
+border: 1px, white, solid;}
+
+.number, .plus
+{font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bold;
+font-size: 3rem;}
+
+.plus
+{color: #006A6A}
+
+.completed
+{font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bold;
+font-size: 1rem;
+margin-block-start: 0.8rem}
+
+.experience
+{font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bold;
+font-size: 1rem;
+color: #006A6A}
+
+.right-button-look-alike
+{margin-block-start: 15rem;
+position: absolute;
+z-index: 2;
+display: flex;
+background-color: #000000;
+padding: 1rem 1rem;
+width: 13rem;
+border-radius: 5rem;
+margin-inline-start: 18rem;
+border: 1px, white, solid}
+
+@media screen and (max-width: 430px) {.right-button-look-alike{margin-block-start: 65vw; margin-inline-start:40vw; border: white solid 1px}}
+
+@media screen and (max-width: 430px) {.left-button-look-alike{margin-block-start: 88vw; margin-inline-start:2vw; border: white solid 1px}}
+
+@media screen and (max-width: 430px) {.mid-div{margin-block-start: 125vw;}}
+
+.what-we-can, .professional-skills, .portfolio, .testimonials, .pricing, .contact-us-two
+{font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bold;
+font-size: 2rem;
+text-align: center;
+}
+
+@media screen and (max-width: 430px) {.what-we-can, .professional-skills, .portfolio, .testimonials, .pricing, .contact-us-two{font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: bold; font-size: 2rem; text-align: center; margin-inline: 3rem;}}
+
+.what-we-can
+{position: relative; z-index:2; }
+
+.services, .our-talent, .projects-we-have, .what-customers-say, .our-price-board
+{text-align: center;
+margin-block-end: 3rem;}
+
+.mid-section-one
+{display: flex;
+grid-template-columns: 25rem 25rem 25rem;
+justify-content: center;
+column-gap: 3rem;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 1rem;}
+
+@media screen and (max-width: 430px) {.mid-section-one{display: flex; flex-direction: column;}}
+
+/*@media screen and (min-width: 431px) {.i-am, .based-in{margin-inline-start: 8rem;}}*/
+
+/*@media screen and (max-width: 430px) {.hello, .i-am, .meshack, .based-in{padding-inline: 1px;}}*/
+
+
+.left-mid-section-one-div
+{border-radius: 0.8rem;
+background-color: #1d292b;
+color: beige;
+padding-top: 3vw;
+padding-bottom: 0.1vw;
+padding-left: 3vw;
+padding-right: 3vw;
+}
+
+@media screen and (max-width: 430px) {.left-mid-section-one-div {margin-block-end: 1rem; margin-inline: 2rem;}}
+
+
+
+/*.first-price-div
+{float: left;
+width: 20%;}*/
+
+/*@media screen and (max-width: 1000px) {
+  .price-div{
+    width: 20%;}}*/
+
+.website-development
+{margin-block-end: 3rem;}
+
+.web-design
+{margin-block-end: 1rem;}
+
+.note
+{padding-block-end: 3vw;}
+
+.see 
+{font-family: Lobster, sans-serif;
+display: flex;
+flex-direction: row;}
+
+.see-anchor
+{color: white}
+
+.see-third
+{margin-block-start: 1.9rem;}
+
+.arrow
+{height: 3rem;
+margin-block-start: -0.6rem;}
+
+/*.third-arrow 
+{margin-block-start: 16rem}*/
+
+.first-line
+{margin-block: 6rem; position: relative;
+z-index: 2;}
+
+@media screen and (max-width: 430px) {.first-line{width: 95%}}
+
+.professional-skills
+{margin-block-end: 1rem;}
+
+.javascript-and-other-divs
+
+{display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+column-gap: 3rem;
+row-gap: 2rem; position: relative; z-index: 2}
+
+@media screen and (max-width: 430px) {.javascript-and-other-divs{display: grid; grid-template-columns: 1fr;}}
+
+.js-js, .project-title-div
+{font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bold;
+font-size: 2.5vw;}
+
+.js-note, .project-description-div, .actual-reviews, .price-div
+{font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 0.8rem;}
+
+.special-line
+{border: 0.2rem solid #006A6A;
+border-radius: 5px;}
+
+@media screen and (max-width: 430px) {.special-line{width:94%}}
+
+.projects-we-have, .what-customers-say, .our-price-board
+{margin-block-start: 1rem;}
+
+.projects-div, .actual-reviews
+{display: flex;
+column-gap: 3rem;
+justify-content: center;}
+
+@media screen and (max-width: 430px) {.projects-div{display: grid; grid-template-columns: 1fr; row-gap: 4rem;}}
+
+@media screen and (max-width: 430px) {.reviews-div, .price-div {display: flex; flex-direction: column; row-gap: 8vw; width: 25.5rem;}}
+
+/*.projects-div
+{display: grid;
+padding-inline-start: 2rem;
+padding-inline-end: 2rem;
+grid-template-columns: 7rem 7rem 7rem;}*/
+
+
+.project-image
+{width: 30rem;
+height: 15rem;
+object-fit: cover;
+border-radius: 10px;}
+
+.project-title-div
+{margin-block: 2rem;}
+
+.project-description-div
+{width: 25vw;
+font-size: 1.7vw;}
+
+@media (max-width:430px) {.project-title-div, .project-description-div{font-size: 5vw; width: 80vw;}}
+
+.project-image, .project1
+{width: 100%;
+height: auto;}
+
+@media screen and (max-width: 430px) {.project-image{width: 25.5rem;}}
+
+.project1
+{text-align: justify;}
+
+.reviews-div, .price-div
+{display: flex;
+column-gap: 3rem;
+justify-content: center;
+;}
+
+.reviews-div
+{position: relative;
+  z-index: 2;}
+
+.price-div
+{font-size: 1rem;
+  }
+
+.owner
+{color: #006A6A;
+font-weight: bold;}
+
+.first-div-web
+{margin-block-end: 2rem;}
+
+.list-tick
+{color:#FFB703}
+
+.first-price-div
+{border-radius: 0.8rem;
+background-color: #1d292b;
+color: beige;
+padding-top: 3rem;
+padding-bottom: 0.1rem;
+padding-left: 3rem;
+padding-right: 3rem;
+width: 15rem}
+
+@media screen and (max-width: 430px) {.first-div-web{padding-block-start: 1rem;}}
+
+.start-project-button, .start-project-button-first
+{margin: auto;
+margin-block-start: 1rem;
+margin-block-end: 2rem;
+color: #e5e5e5;
+border-width: 1px, solid;
+border-style: solid;
+border-color: #e5e5e5;
+padding: 1rem 1rem;
+background: inherit;
+border-radius: 2rem;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 1rem;
+font-weight: 500;}
+
+.start-project-button-first
+{margin-block-start: 3.5rem;}
+
+.start-project-button-first:hover, .start-project-button:hover
+{color:#006A6A;
+background-color: white;
+font-weight: bold}
+
+.price-itself
+{font-size: 1.1rem;
+margin-block-end: 1rem;}
+
+.loginForm
+{justify-content: center;}
+
+.contact-us-two
+{margin-block-end: 1rem;}
+
+.footer-email-logo
+{background: none;
+width: 3rem;}
+
+.footer-email-button
+{display: flex;
+background: inherit;
+border: none;
+margin-block-end: 2rem;}
+
+.footer-email
+{color: #e5e5e5;
+font-family: Lobster, sans-serif;
+font-size: 2rem;
+margin-inline-start: 1rem;}
+
+.or-you-can
+{font-family: Lobster, sans-serif;
+font-size: 2rem;
+color:#006A6A}
+
+.details-div 
+{display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+column-gap: 9rem;}
+
+.left-details-div
+{display: flex;
+flex-direction: column;
+row-gap: 3rem;
+margin-block-start: 3rem;}
+
+.right-details-div
+{display: flex;}
+
+.details-div
+{display: flex;}
+
+.your-name
+{color: #e5e5e5;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 1.5rem;
+text-align: center;}
+
+.your-name-input
+{color: #e5e5e5;
+height: 2rem;
+width: 32rem;
+font-size: 1.5rem;
+border: white solid 1px;
+background: inherit;
+border-radius: 1rem;
+margin-block-end: 1rem;}
+
+.your-message
+{height: 7rem;
+width: 32rem}
+
+.send-message-button-js
+{color: #e5e5e5;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 1rem;
+height: 2.5rem;
+width: 10rem;
+border: white solid 1px;
+background: inherit;
+border-radius: 1rem;
+margin-block-start: 1rem;
+display: block;
+margin: auto}
+
+@media screen and (max-width: 430px) {.your-name-input{width: 20rem}}
+
+.website-name
+{display: flex;
+justify-content: center;
+margin-block-start: 30rem;
+color: #006A6A;
+font-family: Geneva, Tahoma, sans-serif;
+font-size: 1.5rem;}
+
+.footer 
+{display: flex;
+justify-content: center;
+margin-block-start: 5rem;
+color: #006A6A;
+font-family: Geneva, Tahoma, sans-serif;
+font-size: 1.5rem;}
+
+.background-xpress
+{position: absolute; font-size: 25rem; font-family: Lobster, sans-serif; top: 50%;
+left: 50%; transform: translate(-50%, -50%); color: rgb(24, 38, 41, 0.3); margin-block-start: 8rem; z-index: 1;}
+
+@media screen and (max-width:430px){.background-xpress{font-size: 35vw; z-index:0; margin-inline-start: -1.5rem;}}
+
+.background-skills
+{position: absolute; font-size: 25rem; font-family: Lobster, sans-serif; color: rgb(24, 38, 41, 0.3); z-index: 1; 
+left: 50%; transform: translate(-50%, -50%); margin-block-start: 12rem;}
+
+.background-testimonials
+{position: absolute; font-size: 25rem; font-family: Lobster, sans-serif; color: rgb(24, 38, 41, 0.3); z-index: 1; left: 50%; transform: translate(-50%, -50%); margin-block-start: 10rem;}
+
+@media screen and (max-width:430px){.background-skills{font-size: 35vw; z-index:0; margin-inline-start: 0.1rem;}}
+@media screen and (max-width:430px){.background-testimonials{font-size:5.5rem; z-index:0; margin-inline-start: -1rem;}}
+
+.last-note
+{margin-block-end: -2rem;}
+
+.logo, .logo-dot
+{position: relative;
+animation: blur 500ms forwards;
+animation-delay: 500ms;
+opacity: 0;}
+
+.hello, .my-name-is
+{position: relative;
+animation: blur 500ms forwards;
+animation-delay: 700ms;
+opacity: 0;}
+
+.meshack, .daniels
+{position: relative;
+animation: blur 500ms forwards;
+animation-delay: 900ms;
+opacity: 0;}
+
+.i-am, .soft
+{position: relative;
+animation: blur 500ms forwards;
+animation-delay: 1100ms;
+opacity: 0;}
+
+.based-in, .xpress-word, .right-div
+{position: relative;
+animation: blur 500ms forwards;
+animation-delay: 1300ms;
+opacity: 0;}
+
+.socials-div, .contact-us
+{position: relative;
+animation: blur 500ms forwards;
+animation-delay: 1500ms;
+opacity: 0;}
+
+.socials-div, .contact-us
+{position: relative;
+animation: blur 500ms forwards;
+animation-delay: 1500ms;
+opacity: 0;
+z-index: 3}
+
+.mid-div 
+{position: relative;
+animation: blur 500ms forwards;
+animation-delay: 1700ms;
+opacity: 0;}
+
+@keyframes blur {
+0%{filter:blur(40px);
+opacity:0;
+bottom:-40px;}
+100%{filter: blur(0px);
+opacity:1;
+bottom: 0;}}
+
